@@ -105,7 +105,11 @@ class TrunkCar: Car, CustomStringConvertible {
     var loadVolume: Double
     
     func freeVolumeCargo() {
+<<<<<<< Updated upstream
         let freeVolume = maxVolume - loadVolume
+=======
+        var freeVolume = maxVolume - loadVolume
+>>>>>>> Stashed changes
         print("Доступно к загрузке \(freeVolume) из \(maxVolume)")
         }
     
@@ -165,3 +169,7 @@ print(SomeSportCar.fuelType)
 SomeSportCar.zeroToHundered = 3.8
 print(SomeSportCar)
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
